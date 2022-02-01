@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/number"
+        android:text="1"
+        android:gravity="center"/>
+
+
+
+        <Spinner
+            android:id="@+id/spinner_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/number"
+            android:entries="@array/pas"/>
+
+        <Spinner
+            android:id="@+id/spinner_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/number"
+            android:layout_alignParentRight="true"
+            android:entries="@array/base_compteur"
+            />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moins"
+            android:id="@+id/btn_spinner_left"
+            android:layout_below="@id/spinner_left"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plus"
+            android:layout_below="@+id/spinner_right"
+            android:layout_alignParentRight="true"
+            android:id="@+id/btn_spinner_right" />
+
+
+
+
+</RelativeLayout>

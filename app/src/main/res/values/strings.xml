@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TD2_SPINNER</string>
+
+    <string-array name="pas">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="base_compteur">
+        <item>1</item>
+        <item>10</item>
+        <item>100</item>
+        <item>1000</item>
+    </string-array>
+
+</resources>
